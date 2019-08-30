@@ -4,13 +4,24 @@
   "description": "Collecting The News Inc website",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Christina Rust",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "express-session": "^1.16.2",
     "mysql2": "^1.6.5",
     "sequelize": "^5.16.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yirklum/CollectingTheNewsInc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yirklum/CollectingTheNewsInc/issues"
+  },
+  "homepage": "https://github.com/yirklum/CollectingTheNewsInc#readme"
 }
