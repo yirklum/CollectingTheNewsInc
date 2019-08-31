@@ -512,7 +512,11 @@
   /*Food Map*/
   
   .close {
-      font-weight: bold;
+      padding-left: 25px;
+  }
+  .close a {
+    color: white;
+    font-weight: bold;
   }
   
   .close:hover,
@@ -520,6 +524,14 @@
       color: #bbb;
       text-decoration: none;
       cursor: pointer;
+  }
+
+  #large-food-map {
+    background-color: #b3ebf8;
+  }
+
+  #large-food-map img {
+    width: 100%;
   }
   
   /* For More On The Story */
