@@ -312,7 +312,6 @@
     float: right;
     padding-left: 4%;
     margin-bottom: 5%;
-    /* width: 100%; */
   }
 
   .links {
@@ -407,7 +406,7 @@
   }
   
   #review-title {
-    background-image: url("../Newsfeed/Map-banner.jpeg");
+    background-image: url("../newsfeed/Map-banner.jpeg");
     background-size: cover;
     width: 75%;
     padding: 3%;
@@ -415,7 +414,7 @@
   }
   
   .book-frame {
-    background-image: url("../Newsfeed/food/open-journal-charleston.png");
+    background-image: url("../newsfeed/food/open-journal-charleston.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 17px;
@@ -544,12 +543,12 @@
     float: left;
   }
   
-  /* Conflict Gallery */
+  /* Conflict/Politics Gallery */
   
   #gulf-wars {
     display: inline-block;
     width: 30%;
-    background-image: url("../images/Galleries/Arnett.jpeg");
+    background-image: url("../images/galleries/Arnett.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -557,35 +556,35 @@
   #balkan-wars {
     display: inline-block;
     width: 30%;
-    background-image: url("../images/Galleries/CA-at-airport.jpeg");
+    background-image: url("../images/galleries/CA-at-airport.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   #afghanistan {
     display: inline-block;
-    background-image: url("../images/Galleries/afghan-friends.jpeg");
+    background-image: url("../images/galleries/afghan-friends.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   #arab-israeli-conflict {
     display: inline-block;
-    background-image: url("../images/Galleries/Arafat.jpeg");
+    background-image: url("../images/galleries/Arafat.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   #chechnya {
     display: inline-block;
-    background-image: url("../images/Galleries/grozny.jpeg");
+    background-image: url("../images/galleries/grozny.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   #other-conflicts {
     display: inline-block;
-    background-image: url("../images/Galleries/little-dave-beach.jpeg");
+    background-image: url("../images/galleries/little-dave-beach.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -623,8 +622,8 @@
   }
   
   .inline-photos {
-    display: inline-block;
-    height: 250px;
+    /* display: inline-block;
+    height: 250px; */
   }
   
   /* Gallery Item Pages */
@@ -767,94 +766,50 @@
   
   /* Politics Gallery */
   
-  #pre-1976 {
+  .politics-categories {
     display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/Nixon.jpeg");
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 15px;
     margin-right: 15px;
     margin-left: 25px;
+  }
+
+  #pre-1976 {
+    background-image: url("../images/galleries/Nixon.jpeg");
   }
   
   #carter {
-    display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/carter.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 15px;
-    margin-right: 25px;
+    background-image: url("../images/galleries/carter.jpeg");
   }
   
   #reagan {
-    display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/santa-barbara.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 25px;
+    background-image: url("../images/galleries/santa-barbara.jpeg");
   }
   
   #hwbush {
-    display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/hw-bush-speech.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 15px;
-    margin-right: 15px;
-    margin-left: 25px;
+    background-image: url("../images/galleries/hw-bush-speech.jpeg");
   }
   
   #clinton {
-    display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/HRC.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 15px;
-    margin-right: 25px;
+    background-image: url("../images/galleries/HRC.jpeg");
   }
   
   #wbush {
-    display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/George-W-Bush.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 25px;
+    background-image: url("../images/galleries/George-W-Bush.jpeg");
   }
   
   #obama {
-    display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/Obama.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 15px;
-    margin-right: 15px;
-    margin-left: 25px;
+    background-image: url("../images/galleries/Obama.jpeg");
   }
   
   #trump {
-    display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/Trump-interview.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 15px;
-    margin-right: 25px;
+    background-image: url("../images/galleries/Trump-interview.jpeg");
   }
   
   #foreign-politics {
-    display: inline-block;
-    width: 30%;
-    background-image: url("../images/Galleries/yeltsin-presidential-pinback.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 25px;
+    background-image: url("../images/galleries/yeltsin-presidential-pinback.jpeg");
   }
   
 
@@ -911,9 +866,9 @@
   /*Newsfeed*/
 
   .book-frame {
-    background-image: url("../Newsfeed/food/open-journal-charleston.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-image: url("../newsfeed/food/open-journal-charleston.png"); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     padding-top: 17px;
     padding-left: 80px;
     width: 1000px;
