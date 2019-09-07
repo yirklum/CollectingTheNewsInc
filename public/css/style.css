@@ -103,13 +103,14 @@
   }
    */
 
-  /* .politics-header-photo {
+  .politics-header-photo {
     border: solid 2px #ff0000;
     float: right;
-    height: 183px;
+    height: 220px;
+    width: auto;
   }
 
-  .logo-politics {
+  /* .logo-politics {
     font-size: 60px;
     font-weight: 800;
     color: #ff0000;
@@ -215,36 +216,7 @@
     padding-bottom: 2%;
     padding-top: 2%;
   }
-  
-  /*Memorabilia*/
 
-  .category img {
-      width: 100%;
-      margin: 8% 0;
-  }
-    
-  h3 {
-    text-align: center;
-  }
-  
-  h3 a {
-    color: #ff0000;
-    font-weight: 700;
-    text-align: justify;
-  }
-
-  .mobile-categories {
-      display: none;
-  }
-
-  .hidden a {
-    cursor: text;
-  }
-  
-  .hidden a:visited {
-    color: #000000;
-  }
-  
   /*History*/
   
   #news-timeline {
@@ -542,70 +514,142 @@
   #pinata {
     float: left;
   }
-  
-  /* Conflict Gallery */
-  
-  #gulf-wars {
-    /* display: inline-block;
-    width: 30%; */
-    background-image: url("../images/galleries/Arnett.jpeg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+
+  /*Memorabilia*/
+
+  .category img {
+    width: 100%;
+    margin: 8% 0;
+  }
+    
+  h3 {
+    text-align: center;
   }
   
-  #balkan-wars {
-    /* display: inline-block;
-    width: 30%; */
-    background-image: url("../images/galleries/CA-at-airport.jpeg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+  h3 a {
+    color: #ff0000;
+    font-weight: 700;
+    text-align: justify;
+  }
+
+  .mobile-categories {
+      display: none;
+  }
+
+  .hidden a {
+    cursor: text;
   }
   
-  #afghanistan {
-    /* display: inline-block; */
-    background-image: url("../images/galleries/afghan-friends.jpeg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+  .hidden a:visited {
+    color: #000000;
   }
   
-  #arab-israeli-conflict {
-    /* display: inline-block; */
-    background-image: url("../images/galleries/Arafat.jpeg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-  }
+  /* Conflict/Politics Galleries */
   
-  #chechnya {
-    /* display: inline-block; */
-    background-image: url("../images/galleries/grozny.jpeg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+  .subcategories {
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 25px;
   }
-  
-  #other-conflicts {
-    /* display: inline-block; */
-    background-image: url("../images/galleries/little-dave-beach.jpeg");
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-  }
-  
+
   .category-title {
     background-color: rgba(255, 255, 255, 0.8);
     color: #000000;
   }
-  
+    
   .category-title h5 {
     text-align: center;
     font-weight: 600;
     padding-top: 5px;
+  }  
+  
+  #pre-1976 {
+    background-image: url("../images/galleries/Nixon.jpeg");
+  }
+    
+  #carter {
+    background-image: url("../images/galleries/carter.jpeg");
+  }
+    
+  #reagan {
+    background-image: url("../images/galleries/santa-barbara.jpeg");
+  }
+    
+  #hwbush {
+    background-image: url("../images/galleries/hw-bush-speech.jpeg");
+  }
+    
+  #clinton {
+    background-image: url("../images/galleries/HRC.jpeg");
+  }
+    
+  #wbush {
+    background-image: url("../images/galleries/George-W-Bush-desktop.jpeg");
+  }
+    
+  #obama {
+    background-image: url("../images/galleries/Obama.jpeg");
+  }
+    
+  #trump {
+    background-image: url("../images/galleries/Trump-interview.jpeg");
+  }
+    
+  #foreign-politics {
+    background-image: url("../images/galleries/yeltsin-presidential-pinback.jpeg");
+  }
+
+  #gulf-wars {
+    background-image: url("../images/galleries/Arnett.jpeg");
   }
   
-  /* Gallery Category Pages */
+  #balkan-wars {
+    background-image: url("../images/galleries/CA-at-airport.jpeg");
+  }
+  
+  #afghanistan {
+    background-image: url("../images/galleries/afghan-friends.jpeg");
+  }
+  
+  #arab-israeli-conflict {
+    background-image: url("../images/galleries/Arafat.jpeg");
+  }
+  
+  #chechnya {
+    background-image: url("../images/galleries/grozny.jpeg");
+  }
+  
+  #other-conflicts {
+    background-image: url("../images/galleries/little-dave-beach.jpeg");
+  }
+  
+  /* Gallery Subcategory Pages */
+  
+  .subcategory-gallery {
+    width: 85%;
+    text-indent: 5%;
+  }
+  
+  .inline-photos {
+    display: inline-block;
+    height: 250px;
+    width: auto;
+  }
   
   .gallery-layout {
     display: inline-block;
-    width: 20%;
-    margin: 15px;
+    padding: 2%;
+  }
+
+  .gallery-layout img{
+    display: inline-block;
+    height: 300px;
+    width: auto;
   }
   
   .gallery-item {
@@ -622,7 +666,7 @@
     color: #FFFFFF;
   }
   
-  /* Gallery Item Pages */
+  /* Item Pages */
   
   .navigation-bar {
     border-top: solid 1px #808080;
@@ -760,50 +804,6 @@
     font-style: italic;
   }
   
-  /* Politics Gallery */
-  
-  .subcategories {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    margin: 15px;
-  }
-
-  #pre-1976 {
-    background-image: url("../images/galleries/Nixon.jpeg");
-  }
-  
-  #carter {
-    background-image: url("../images/galleries/carter.jpeg");
-  }
-  
-  #reagan {
-    background-image: url("../images/galleries/santa-barbara.jpeg");
-  }
-  
-  #hwbush {
-    background-image: url("../images/galleries/hw-bush-speech.jpeg");
-  }
-  
-  #clinton {
-    background-image: url("../images/galleries/HRC.jpeg");
-  }
-  
-  #wbush {
-    background-image: url("../images/galleries/George-W-Bush-desktop.jpeg");
-  }
-  
-  #obama {
-    background-image: url("../images/galleries/Obama.jpeg");
-  }
-  
-  #trump {
-    background-image: url("../images/galleries/Trump-interview.jpeg");
-  }
-  
-  #foreign-politics {
-    background-image: url("../images/galleries/yeltsin-presidential-pinback.jpeg");
-  }
 
   /******************************************
   /* ADDITIONAL STYLES
@@ -924,7 +924,7 @@
     margin: 0 55px 0 85px;
   }
 
-  /* Conflict Gallery */
+  /* Conflict/Politics Galleries */
 
   .navigation-bar {
     margin-top: 25px;
@@ -937,60 +937,16 @@
     margin-top: 5px;
   }
 
-  /* #gulf-wars {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #balkan-wars {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #afghanistan {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #arab-israeli-conflict {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #chechnya {
-    width: 32%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #other-conflicts {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  } */
-
   .category-title h5 {
     font-size: 22px;
     margin-top: 225px;
   }
 
   /* Gallery Category Pages */
+
+  /* .inline-photos {
+    height: 225px;
+  } */
 
   .gallery-layout {
     margin-bottom: 25px;
@@ -1011,6 +967,10 @@
 
   .header-photo {
     margin-left: 315px;
+}
+
+.politics-header-photo {
+  margin-left: 325px;
 }
 
   /* .centered-title {
@@ -1093,7 +1053,7 @@
     margin-right: 45px;
   }
 
-  /* Conflict Gallery */
+  /* Conflict/Politics Gallery */
 
   .navigation-bar {
     margin-top: 25px;
@@ -1106,81 +1066,9 @@
     margin-top: 5px;
   }
 
-  /* #gulf-wars {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #balkan-wars {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #afghanistan {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #arab-israeli-conflict {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #chechnya {
-    width: 32%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #other-conflicts {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  } */
-
   .category-title h5 {
     font-size: 22px;
     margin-top: 125px;
-  }
-
-  /* Gallery Category Pages */
-
-  .gallery-layout {
-    margin-bottom: 25px;
-  }
-
-  .gallery-section-intro {
-    margin: 25px 0;
-  }
-
-  /* Gallery Item Pages */
-
-  .item-text-block {
-    padding: 30px;
-    display: inline-block;
-    width: 55%;
-    height: 558px;
-  }
-  
-  .item-text {
-    line-height: 30px;
-    position: relative;
   }
 
   .category-title {
@@ -1188,14 +1076,7 @@
   }
   
   .subcategories {
-    /* width: 80%; */
-    margin-bottom: 25px;
-      /* margin-right: 15px;
-      margin-left: 25px; */
-    }
-    /* height: auto;
-    background-size: auto; */
-    
+    margin-bottom: 25px;    
   }
 
   #hwbush {
@@ -1213,6 +1094,34 @@
   #foreign-politics {
     background-image: url("../images/galleries/yeltsin-presidential-pinback-mobile.jpeg");
   }
+
+  /* Gallery Category Pages */
+
+  .inline-photos {
+    height: 200px;
+  }
+  
+  .gallery-layout {
+    margin-bottom: 25px;
+  }
+
+  .gallery-section-intro {
+    margin: 25px 0;
+  }
+
+  /* Item Pages */
+
+  .item-text-block {
+    padding: 30px;
+    display: inline-block;
+    width: 55%;
+    height: 558px;
+  }
+  
+  .item-text {
+    line-height: 30px;
+    position: relative;
+  }
 }
 
 
@@ -1228,30 +1137,14 @@
   	display: none;
   }
 
+  .politics-header-photo {
+    margin-left: 250px;
+  }
+
   .centered-title {
     padding-left: 70px;
   }
 
-  /*Memorabilia*/
-
-  .mobile-categories img {
-      width: 100%;
-      margin: 25px 0px;
-  }
-
-  .mobile-categories {
-      display: inline-block;
-      margin-left: 5%;
-      width: 90%;
-  }
-
-  .desktop-categories {
-      display: none;
-  }
-
-  /*About*/
-
- 
   /* Contact */
 
   #note {
@@ -1318,7 +1211,24 @@
     margin-right: 45px;
   }
 
-  /* Conflict Gallery */
+  /*Memorabilia*/
+
+  .mobile-categories img {
+    width: 100%;
+    margin: 25px 0px;
+  }
+
+  .mobile-categories {
+    display: inline-block;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .desktop-categories {
+      display: none;
+  }
+
+  /* Conflict/Politics Gallery */
 
   .navigation-bar {
     margin-top: 25px;
@@ -1331,61 +1241,17 @@
     margin-top: 5px;
   }
 
-  /* #gulf-wars {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #balkan-wars {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #afghanistan {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #arab-israeli-conflict {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #chechnya {
-    width: 32%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  }
-
-  #other-conflicts {
-    width: 30%;
-    min-height: 200px;
-    margin: 25px auto;
-    padding-top: 50px;
-    margin-right: 15px;
-  } */
-
   .category-title h5 {
     font-size: 20px;
     margin-top: 125px;
   }
 
   /* Memorabilia Category Pages */
-
+  
+  .inline-photos {
+    height: 150px;
+  }
+  
   .gallery-layout {
     margin-bottom: 25px;
   }
@@ -1399,38 +1265,6 @@
   #ngt {
   	font-size: 42px;
   }
-
-  /*Politics*/
-
-  #hwbush {
-    background-image: url("../images/galleries/hw-bush-speech.jpeg")
-  }
-
-  #wbush {
-    background-image: url("../images/galleries/George-W-Bush-mobile.jpeg")
-  }
-
-  #trump {
-    background-image: url("../images/galleries/Trump-interview.jpeg");
-  }
-
-  #hwbush {
-    background-image: url("../images/galleries/hw-bush-speech-mobile.jpeg");
-  }
-
-  #foreign {
-    background-image: url("../images/galleries/yeltsin-presidential-pinback.jpeg");
-  }
-}
-
-.subcategories {
-  display: inline-block;
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 15px;
-  margin-right: 15px;
-  margin-left: 25px;
 }
 
 
@@ -1461,6 +1295,10 @@
    .header-photo {
     margin-left: 140px;
     }
+
+    .politics-header-photo {
+      margin-left: 150px;
+    }
   
     /* Footer */
   
@@ -1484,17 +1322,6 @@
         font-size: 26px;
     }
 
-    /*About*/
-  
-    /* #bioblock {
-      margin: 40px auto;
-      padding-bottom: 600px;
-    }
-  
-    .biopic {
-      padding-top: 85px;
-    } */
-  
     /* Contact */
   
     form {
@@ -1580,7 +1407,7 @@
       margin-right: 45px;
     }
   
-    /* Conflict Gallery */
+    /* Conflict/Politics Galleries */
   
     .navigation-bar {
       margin-top: 25px;
@@ -1593,54 +1420,10 @@
       margin-top: 5px;
     }
   
-    /* #gulf-wars {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #balkan-wars {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #afghanistan {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #arab-israeli-conflict {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #chechnya {
-      width: 32%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #other-conflicts {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    } */
-  
+    .subcategories {
+      width: 85%;
+      }
+
     .category-title h5 {
       font-size: 22px;
       margin-top: 125px;
@@ -1648,18 +1431,16 @@
   
     /* Gallery Category Pages */
   
+    .inline-photos {
+      height: 100px;
+    }
+
     .gallery-layout {
       margin-bottom: 25px;
     }
   
     .gallery-section-intro {
       margin: 25px 0;
-    }
-
-    /*Politics*/
-    
-    .subcategories {
-    width: 85%;
     }
   }
 
@@ -1689,6 +1470,10 @@
         margin-left: 0;
     }
 
+    .politics-header-photo {
+      margin-left: 115px;
+    }
+
     /* .centered-title {
       padding-left: 70px;
     }
@@ -1700,16 +1485,6 @@
     }
   
     /*About*/
-  
-    /* #bioblock {
-        margin: 40px auto;
-        padding-bottom: 600px;
-    }
-  
-    .biopic {
-      padding-top: 85px;
-    }
-   */
 
    .links {
      padding-bottom: 150px;
@@ -1787,7 +1562,7 @@
       margin-right: 45px;
     }
     
-    /* Conflict Gallery */
+    /* Conflict/Politics Galleries */
   
     .navigation-bar {
       margin-top: 25px;
@@ -1800,54 +1575,6 @@
       margin-top: 5px;
     }
   
-    /* #gulf-wars {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #balkan-wars {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #afghanistan {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #arab-israeli-conflict {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #chechnya {
-      width: 32%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    }
-  
-    #other-conflicts {
-      width: 30%;
-      min-height: 200px;
-      margin: 25px auto;
-      padding-top: 50px;
-      margin-right: 15px;
-    } */
-  
     .category-title h5 {
       font-size: 22px;
       margin-top: 125px;
@@ -1855,6 +1582,10 @@
   
     /* Gallery Category Pages */
   
+    .inline-photos {
+      height: 75px;
+    }
+
     .gallery-layout {
       margin-bottom: 25px;
     }
@@ -1863,4 +1594,3 @@
       margin: 25px 0;
     }
   }
-  
