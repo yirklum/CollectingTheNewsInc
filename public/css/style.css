@@ -155,6 +155,22 @@
     font-weight: 800;
   }
 
+  h4 a {
+    color: #000000;
+  }
+
+  h4 a :hover {
+    cursor: pointer;
+  }
+
+  footer :hover {
+    color: #000000;
+    text-decoration: none;
+    cursor: default;
+  }
+
+  footer 
+
   /* Homepage */
   
   .topbox {
@@ -640,6 +656,12 @@
     height: 250px;
     width: auto;
   }
+
+  .vertical-photos {
+    display: inline-block;
+    height: 350px;
+    width: auto;
+  }
   
   .gallery-layout {
     display: inline-block;
@@ -1098,6 +1120,11 @@
     height: 200px;
   }
 
+  .vertical-photos {
+    height: 300px;
+  }
+
+
   .gallery-layout img{
     height: 250px;
     width: auto;
@@ -1250,6 +1277,10 @@
   .inline-photos {
     height: 150px;
   }
+
+.vertical-photos {
+  height: 200px;
+}  
   
   .gallery-layout {
     margin-bottom: 25px;
@@ -1445,6 +1476,10 @@
       height: 100px;
     }
 
+    .vertical-photos {
+      height: 150px;
+    }
+
     .gallery-layout {
       font-size: 12px;
       line-height: 1.5em;
@@ -1601,6 +1636,10 @@
   
     .inline-photos {
       height: 75px;
+    }
+
+    .vertical-photos {
+      height: 100px;
     }
 
     .gallery-layout img {
