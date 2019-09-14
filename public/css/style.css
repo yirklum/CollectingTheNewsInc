@@ -169,19 +169,17 @@
     cursor: default;
   }
 
-  footer 
 
   /* Homepage */
   
   .topbox {
-    background-image: url("../images/cover-photos/museum-entrance.jpeg");
+    background-image: url(../images/cover-photos/museum-entrance.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #000000;
     min-height: 500px;
     margin-bottom: 5%;
   }
-  
+ 
   .welcome {
     float: left;
     background-color: #000000;
