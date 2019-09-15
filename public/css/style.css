@@ -197,7 +197,7 @@
     color: #ff0000;
   }
   
-  #ads {
+  .ads {
     margin-left: 6%;
   }
 
@@ -527,6 +527,11 @@
   
   #pinata {
     float: left;
+  }
+
+  .larger-text {
+    font-size: 22px;
+    padding-right: 24px;
   }
 
   /*Memorabilia*/
