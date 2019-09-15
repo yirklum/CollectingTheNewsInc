@@ -531,7 +531,6 @@
 
   .larger-text {
     font-size: 22px;
-    padding-right: 24px;
   }
 
   /*Memorabilia*/
@@ -658,6 +657,20 @@
     display: inline-block;
     height: 250px;
     width: auto;
+  }
+
+  .inline-videos {
+    height: 250px;
+    width: 400px;
+  }
+
+  .captions {
+    padding-left: 25px;
+    padding-top: 15px;
+    line-height: 1.5em;
+    font-size: 15px;
+    /* width: 100%; */
+    
   }
 
   .vertical-photos {
@@ -1123,6 +1136,12 @@
     height: 200px;
   }
 
+  .inline-videos {
+    height: 200px;
+    width: 350px;
+    /* display: inline-block; */
+  }
+
   .vertical-photos {
     height: 300px;
   }
@@ -1281,10 +1300,20 @@
     height: 150px;
   }
 
-.vertical-photos {
-  height: 200px;
-}  
+  .inline-videos {
+    height: 150px;
+    width: 250px;
+  }
+
+  .vertical-photos {
+    height: 200px;
+  }  
   
+  .captions {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 0px;
+  }
   .gallery-layout {
     margin-bottom: 25px;
   }
@@ -1477,6 +1506,12 @@
   
     .inline-photos {
       height: 100px;
+    }
+
+    .inline-videos {
+      height: 100px;
+      width: 150px;
+      /* display: inline-block; */
     }
 
     .vertical-photos {
