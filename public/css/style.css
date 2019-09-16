@@ -98,30 +98,12 @@
       height: 100%;
   }
 
-  /* .centered-title {
-    padding-left: 70px;
-  }
-   */
-
   .politics-header-photo {
     border: solid 2px #ff0000;
     float: right;
     height: 220px;
     width: auto;
   }
-
-  /* .logo-politics {
-    font-size: 60px;
-    font-weight: 800;
-    color: #ff0000;
-    padding-top: 15px;
-    text-align: center;
-    padding-left: 150px;
-  } */
-
-  /* .headergraphic-politics {
-    height: 33px;
-  } */
   
   /* Navigation Menu */
   
@@ -168,7 +150,6 @@
     text-decoration: none;
     cursor: default;
   }
-
 
   /* Homepage */
   
@@ -521,16 +502,16 @@
   
   /* For More On The Story */
   
-  .text-left {
-    float: left;
-  }
-  
-  #pinata {
-    float: left;
-  }
-
   .larger-text {
     font-size: 22px;
+  }
+
+  .article-images {
+    margin-top: 6%;
+  }
+
+  .article-images img {
+    margin-left: 5%;
   }
 
   /*Memorabilia*/
