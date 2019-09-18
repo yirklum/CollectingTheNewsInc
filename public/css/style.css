@@ -27,8 +27,7 @@
   /* BASE STYLES
   /*******************************************/
   
-  html,body
-  {
+  html,body {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -662,12 +661,10 @@
 
   hr.red-line {
     border-top: 1px solid red;
-    /* padding-top: 50px; */
   }
   
   .gallery-layout {
     display: inline-block;
-    /* padding: 2%; */
   }
 
   .gallery-layout img{
@@ -711,61 +708,50 @@
   }
   
   .item-pages {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    border: solid 2px #ffffff;
+    overflow: hidden;
   }
   
   .item-image {
-    float: left;
     width: 45%;
-    margin-bottom: 75px;
+    padding-right: 2%;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
   }
   
-  .item-text-block {
-    border: solid 2px #ffffff;
-    padding: 45px;
-    display: inline-block;
-    width: 55%;
-    height: 666px;
+  .primary-thumbnail {
+    float: left;
+    width: 100%;
+    padding-right: 5%;
   }
   
   .item-text {
     line-height: 30px;
-    position: relative;
+    padding: 5%;
   }
-  
-  .item-block-overflow {
-    margin-bottom: 75px;
-    border: solid 2px #ffffff;
-  }  
-  
-  .item-image-overflow {
-    float: left;
+
+  .thumbnail-container {
+    display: inline-block;
     width: 45%;
-    margin-bottom: 25px;
-    margin-right: 45px;
-  }
-  
-  .item-text-block-overflow {
-    padding: 45px;
-  }
-  
-  .item-text-overflow {
-    line-height: 30px;
-    position: relative;
-  }
-  
-  .passage {
-    font-style: italic;
-    padding-left: 30px;
-  }
-  
-  .thumbnail-column {
     float: left;
-    width: 25%;
-    padding: 10px;
   }
-  
+
+  .expanded-thumbnail-container {
+    width: 100%;
+    float: left;
+    display: none;
+    padding-right: 5%;
+    margin-left: -24px;     
+  }
+
   .thumbnail-column img {
+    width: 46%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 15px;
+    display: inline-block;
     opacity: 0.8;
     cursor: pointer;
   }
@@ -780,25 +766,16 @@
     clear: both;
   }
   
-  .expanded-thumbnail container {
-    position: relative;
-    display: none;
-  }
-  
   #itemText {
     bottom: 15px;
     left: 15px;
     color: white;
     font-size: 20px;
   }
-  
-  .thumbnail-container {
-    border: solid 2px #ffffff;
-    display: inline-block;
-    float: left;
-    width: 45%;
-    height: 666px;
-    margin-bottom: 500px;
+
+  .passage {
+    font-style: italic;
+    padding-left: 30px;
   }
   
   .long {
@@ -969,10 +946,6 @@
 
   /* Gallery Category Pages */
 
-  /* .gallery-layout {
-    margin-bottom: 25px;
-  } */
-
   .gallery-section-intro {
     margin: 25px 0;
   }
@@ -993,10 +966,6 @@
 .politics-header-photo {
   margin-left: 325px;
 }
-
-  /* .centered-title {
-    padding-left: 70px;
-  } */
 
    /*Newsfeed*/
    
@@ -1144,7 +1113,7 @@
   }
 
   /* Item Pages */
-
+/* 
   .item-text-block {
     padding: 30px;
     display: inline-block;
@@ -1155,7 +1124,7 @@
   .item-text {
     line-height: 30px;
     position: relative;
-  }
+  } */
 }
 
 
@@ -1497,7 +1466,6 @@
     .inline-videos {
       height: 100px;
       width: 150px;
-      /* display: inline-block; */
     }
 
     .vertical-photos {
@@ -1548,10 +1516,6 @@
 
     .politics-header-photo {
       margin-left: 115px;
-    }
-
-    /* .centered-title {
-      padding-left: 70px;
     }
 
     /* Navigation Menu */
