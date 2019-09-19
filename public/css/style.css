@@ -790,34 +790,34 @@
     padding-left: 30px;
   }
   
-  .long {
+  /* .long {
     margin-bottom: 850px;
-  }
+  } */
   
   .youtube-video {
     margin-left: 25%;
+    margin-top: 25px;
+    width: 539px;
+    height: 404px; 
   }
   
-  #presidential-seal {
+  /* #presidential-seal {
     margin-left: 14%;
     margin-top: 25px;
     display: inline-block;
-  }
-  
+  } */
+/*   
   #seal-caption {
     margin-bottom: 25px;
     font-style: italic; 
     display: inline-block;
     margin-left: 14%;
-  }
+  } */
   
   .item-description-photo {
-    margin-top: 25px;
-    margin-bottom: 25px;
     text-align: center;
     font-style: italic;
   }
-  
 
   /******************************************
   /* ADDITIONAL STYLES
@@ -1106,13 +1106,11 @@
   .inline-videos {
     height: 200px;
     width: 350px;
-    /* display: inline-block; */
   }
 
   .vertical-photos {
     height: 300px;
   }
-
 
   .gallery-layout img{
     height: 250px;
@@ -1123,8 +1121,15 @@
   .gallery-section-intro {
     margin: 25px 0;
   }
-}
 
+  /*Item Pages*/
+  
+  .youtube-video {
+    margin-left: 25%;
+    width: 400px;
+    height: 300px; 
+  }
+}
 
 @media (max-width: 768px) {
 	/* tablet portrait */
@@ -1290,6 +1295,14 @@
 
   .gallery-section-intro {
     margin: 25px 0;
+  }
+
+  /*Item Pages*/
+  
+  .youtube-video {
+    margin-left: 15%;
+    width: 300px;
+    height: 200px;
   }
 }
 
@@ -1484,6 +1497,12 @@
     .gallery-section-intro {
       margin: 25px 0;
     }
+
+    /*Item Pages*/
+
+    .item-description-photo img {
+      width: 300px;
+    }
   }
 
 @media(max-width: 480px) {
@@ -1634,5 +1653,17 @@
   
     .gallery-section-intro {
       margin: 25px 0;
+    }
+
+  /*Item Pages*/
+
+    .youtube-video {
+      margin-left: 15%;
+      width: 200px;
+      height: 100px;
+    }
+
+    .item-description-photo img {
+      width: 200px;
     }
   }
