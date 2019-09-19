@@ -265,5 +265,5 @@
 
         expandPresidentialTripStickers.src = imgs.src;
 
-        expandDeltaPresidentialTripStickers.parentElement.style.display = "block";
+        expandPresidentialTripStickers.parentElement.style.display = "block";
     }

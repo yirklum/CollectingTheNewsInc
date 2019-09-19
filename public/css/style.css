@@ -790,10 +790,6 @@
     padding-left: 30px;
   }
   
-  /* .long {
-    margin-bottom: 850px;
-  } */
-  
   .youtube-video {
     margin-left: 25%;
     margin-top: 25px;
@@ -801,23 +797,12 @@
     height: 404px; 
   }
   
-  /* #presidential-seal {
-    margin-left: 14%;
-    margin-top: 25px;
-    display: inline-block;
-  } */
-/*   
-  #seal-caption {
-    margin-bottom: 25px;
-    font-style: italic; 
-    display: inline-block;
-    margin-left: 14%;
-  } */
-  
   .item-description-photo {
     text-align: center;
     font-style: italic;
+    padding-top: 25px;
   }
+
 
   /******************************************
   /* ADDITIONAL STYLES
@@ -830,10 +815,6 @@
   /*******************************************/
 
   /* Header */
-
-  /* .centered-title {
-    padding-left: 70px;
-  } */
 
   /*History*/
 
