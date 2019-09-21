@@ -503,12 +503,14 @@
   }
 
   .article-images {
-    margin-top: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .article-images img {
-    margin-left: 5%;
-  }
+    margin-left: 12%;
+    height: 350px;
+ }
 
   /*Memorabilia*/
 
@@ -1029,7 +1031,7 @@
     line-height: 34px;
     margin: 15px 0;
   }
-
+/* 
   #pinata {
     width: 45%;
     margin: 5px 0 25px 35px;
@@ -1037,7 +1039,12 @@
 
   #trump-toilet-paper {
     margin-right: 45px;
-  }
+  } */
+
+  .article-images img {
+    /* margin-left: 12%; */
+    height: 250px;
+ }
 
   /* Conflict/Politics Gallery */
 
@@ -1198,14 +1205,10 @@
     margin: 15px 0;
   }
 
-  #pinata {
-    width: 45%;
-    margin: 5px 0 25px 35px;
-  }
-
-  #trump-toilet-paper {
-    margin-right: 45px;
-  }
+  .article-images img {
+    margin-left: 10%;
+    height: 200px;
+ }
 
   /*Memorabilia*/
 
@@ -1353,7 +1356,7 @@
 
     /*Equipment*/
 
-    .equipment-layout img{
+    .equipment-layout img {
       height: 65px;
     }
 
@@ -1433,14 +1436,14 @@
       margin: 15px 0;
     }
   
-    #pinata {
-      width: 45%;
-      margin: 5px 0 25px 35px;
-    }
-  
-    #trump-toilet-paper {
-      margin-right: 45px;
-    }
+    .article-images img {
+      margin-left: 5%;
+      height: 150px;
+   }
+
+   .larger-text {
+     font-size: 16px;
+   }
   
     /* Conflict/Politics Galleries */
   
