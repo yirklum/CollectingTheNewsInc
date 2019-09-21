@@ -254,19 +254,16 @@
     border: solid 2px white;
   }
   
-  .equipment {
-    margin-left: 8%;
-    margin-bottom: 75px;
+  .equipment-layout img{
+    display: block;
+    height: 200px;
+    width: auto;
   }
-  
-  .equipment-gallery {
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    margin-right: 25px;
-    margin-bottom: 25px;
+
+  .equipment-layout .item-label {
+    margin-right: 15%;
   }
-  
+
   /*About*/
   
   #bioblock {
@@ -960,15 +957,21 @@
   margin-left: 325px;
 }
 
-   /*Newsfeed*/
-   
-   .book-frame {
-    display: none;
-  }
+/*Equipment*/
 
-  #review-title {
-      display: none;
-  }
+.equipment-layout img{
+  height: 150px;
+}
+
+/*Newsfeed*/
+   
+.book-frame {
+  display: none;
+}
+
+#review-title {
+  display: none;
+}
 
   .mobile-food-reviews {
     display: block;
@@ -1130,6 +1133,12 @@
 
   .centered-title {
     padding-left: 70px;
+  }
+
+  /*Equipment*/
+
+  .equipment-layout img{
+    height: 125px;
   }
 
   /* Contact */
@@ -1340,6 +1349,12 @@
 
     h2 {
         font-size: 26px;
+    }
+
+    /*Equipment*/
+
+    .equipment-layout img{
+      height: 65px;
     }
 
     /* Contact */
